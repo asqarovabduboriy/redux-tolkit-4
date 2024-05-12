@@ -1,0 +1,63 @@
+.main__text_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__text_content h4 {
+    color: rgb(61, 61, 61);
+    font-family: 'Cera Pro';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 10%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.main__text_content h2 {
+    font-family: "Cera Pro";
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 70px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+
+.main__text_content span {
+    color: rgb(70, 163, 88);
+    ;
+}
+
+
+.main__text_content p {
+    width: 557px;
+    color: rgb(114, 114, 114);
+    font-family: "Cera Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.main__text_content button {
+    margin-top: 44px;
+    background-color: rgb(70, 163, 88);
+    color: rgb(255, 255, 255);
+    font-family: "Cera Pro";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    padding: 9px 11px;
+
+
+}
