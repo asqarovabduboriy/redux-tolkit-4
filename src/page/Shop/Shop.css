@@ -1,0 +1,114 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.grid-item {
+    padding: 10px;
+    display: grid;
+}
+
+label {
+    color: rgb(61, 61, 61);
+    font-family: "Cera Pro";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.grid-item input {
+    width: 350px;
+    padding: 13px;
+    outline: none;
+    box-sizing: border-box;
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 3px;
+    color: rgb(165, 165, 165);
+    font-family: "Cera Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.shop_sub_total_title {
+    display: flex;
+    gap: 250px;
+    align-items: center;
+}
+
+.wrapper__shop_flex {
+    display: flex;
+    gap: 20px;
+}
+
+.shop_sub_total_card {
+    background: rgb(251, 251, 251);
+    padding: 5px;
+
+}
+
+.shop_sub_total_card img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.flex_item_shop_card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex_item_shop_card h2 {
+    color: rgb(61, 61, 61);
+    font-family: " Cera Pro";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.flex_item_shop_card p {
+    color: rgb(114, 114, 114);
+    font-family: "Cera Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: right;
+}
+
+.flex_item_shop_card b {
+    color: rgb(70, 163, 88);
+    font-family: "Cera Pro";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: right;
+}
+
+.wrapper_shop_card-flex {
+    display: grid;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.payment__wrapper {
+    width: 330px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    box-sizing: border-box;
+    border: 1px solid rgb(70, 163, 88);
+    border-radius: 3px;
+    padding:11px 13px ;
+    margin-top: 15px;
+}
