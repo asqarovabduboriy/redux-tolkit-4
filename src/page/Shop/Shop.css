@@ -17,12 +17,13 @@ label {
     line-height: 15px;
     letter-spacing: 0%;
     text-align: left;
-    margin-bottom: 10px;
+    margin-bottom: -50px;
 }
 
 .grid-item input {
     width: 350px;
-    padding: 13px;
+    padding-left: 13px;
+    height: 50px;
     outline: none;
     box-sizing: border-box;
     border: 1px solid rgb(234, 234, 234);
@@ -30,10 +31,6 @@ label {
     color: rgb(165, 165, 165);
     font-family: "Cera Pro";
     font-size: 14px;
-    font-weight: 400;
-    line-height: 15px;
-    letter-spacing: 0%;
-    text-align: left;
 }
 
 .shop_sub_total_title {
@@ -49,8 +46,7 @@ label {
 
 .shop_sub_total_card {
     background: rgb(251, 251, 251);
-    padding: 5px;
-
+    padding: 8px;
 }
 
 .shop_sub_total_card img {
